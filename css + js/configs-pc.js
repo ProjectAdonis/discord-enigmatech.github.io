@@ -11,7 +11,40 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const grid = document.querySelector(".grid.g_three.config");
+  const radioButtons = document.querySelectorAll('.budget-filter input[type="radio"]');
 
+  function filterPosts() {
+    console.log("filterPosts function called");
+    const selectedRadio = document.querySelector('.budget-filter input[type="radio"]:checked');
+    const selectedValue = selectedRadio ? selectedRadio.nextElementSibling.textContent : "";
+    console.log("Selected value:", selectedValue);
+
+    const posts = document.querySelectorAll(".post");
+    console.log("Number of posts:", posts.length);
+
+    posts.forEach((post) => {
+      const priceText = post.querySelector("h3").textContent;
+      const price = parseInt(priceText.match(/\d+/)[0]);
+      console.log("Post price:", price);
+
+      if (selectedValue === "Tout") {
+        post.style.display = "block";
+      } else if (selectedValue.includes("Petit budget") && price <= 1000) {
+        post.style.display = "block";
+      } else if (selectedValue.includes("Moyen budget") && price >= 1200 && price <= 1600) {
+        post.style.display = "block";
+      } else if (selectedValue.includes("Grand budget") && price > 1600) {
+        post.style.display = "block";
+      } else {
+        post.style.display = "none";
+      }
+    });
+  }
+
+  radioButtons.forEach((radio) => {
+    radio.addEventListener("change", filterPosts);
+  });
+  
   fetch("../json/configs-pc.json")
     .then((response) => response.json())
     .then((jsonData) => {
@@ -64,20 +97,14 @@ document.addEventListener("DOMContentLoaded", function () {
         // Set the custom CSS property to control the ::before pseudo-element
         tags.style.setProperty("--tags-before-display", "block");
 
-        const cart = document.createElement("a");
-        cart.href = config.panier;
-        cart.target = "_blank";
-        cart.textContent = "Acheter";
-        cart.className = "panier-button";
-
         post.appendChild(h3);
         post.appendChild(date);
         post.appendChild(p);
         post.appendChild(ul);
         post.appendChild(tags);
-        post.appendChild(cart);
 
         grid.appendChild(post);
       });
+      setTimeout(filterPosts, 0);
     });
 });

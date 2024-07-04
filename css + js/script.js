@@ -45,7 +45,7 @@ $(".autoplay")
     slidesToShow: 3,
     slidesToScroll: 3,
     dots: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     responsive: [
       {

@@ -1,9 +1,9 @@
 [
   {
     "name": "Config 625€",
+    "price": "625€",
     "date": "15/10/2023",
     "description": "Config bas/milieu de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B0B4WLZ6Y4&ASIN.2=B0B4S93JPG&ASIN.3=B08BN8VD23&ASIN.4=B0B5CDVS7S&ASIN.5=B0863DHZDJ&ASIN.6=B09HHLX543&ASIN.7=B08X4K89PZ&ASIN.8=B0991W1HKT&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
     "tags": ["Gaming simple"],
     "parts": [
       {
@@ -50,9 +50,9 @@
   },
   {
     "name": "Config 800€",
+    "price": "800€",
     "date": "15/10/2023",
     "description": "Config parfaite petit/moyen budget",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B09VCHR1VH&ASIN.2=B0B4S93JPG&ASIN.3=B08BCQF1BD&ASIN.4=B0B5CDVS7S&ASIN.5=B0863DHZDJ&ASIN.6=B0BCL3L6ZG&ASIN.7=B09PMJX88Y&AS",
     "tags": ["Gaming 1080p/1440p"],
     "parts": [
       {
@@ -99,9 +99,9 @@
   },
   {
     "name": "Config 1000€",
+    "price": "1000€",
     "date": "15/10/2023",
     "description": "Config milieu de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B09VCHR1VH&ASIN.2=B0B4S93JPG&ASIN.3=B08BCQF1BD&ASIN.4=B0BJPC6L2Z&ASIN.5=B07ZZYWTBP&ASIN.6=B09KW68M2G&ASIN.7=B09PMJX88Y&ASIN.8=B0991TZ399&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
     "tags": ["Gaming 1080p/1440p/4k à 60fps"],
     "parts": [
       {
@@ -148,9 +148,9 @@
   },
   {
     "name": "Config 1200€",
+    "price": "1200€",
     "date": "15/10/2023",
     "description": "Config mileu/haut de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B09VCHQHZ6&ASIN.2=B0B4S93JPG&ASIN.3=B08BCQF1BD&ASIN.4=B0BJPC6L2Z&ASIN.5=B07ZZYWTBP&ASIN.6=B08TJ2BHCQ&ASIN.7=B0BN3SY5XW&ASIN.8=B08BKPQQDD&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
     "tags": ["Gaming toutes résolutions, Streaming simple possible"],
     "parts": [
       {
@@ -197,9 +197,9 @@
   },
   {
     "name": "Config 1400€",
+    "price": "1400€",
     "date": "15/10/2023",
     "description": "Config haut de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B0BN5YLBRG&ASIN.2=B09NSCCYHH&ASIN.3=B0BJW1G7VN&ASIN.4=B097K2WKZW&ASIN.5=B07TLYWMYW&ASIN.6=B0CGM93HJD&ASIN.7=B0BN3SY5XW&ASIN.8=B08MWCYV65&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
     "tags": ["Gaming, Streaming basic, Création de contenu"],
     "parts": [
       {
@@ -246,9 +246,9 @@
   },
   {
     "name": "Config 1600€",
+    "price": "1600€",
     "date": "15/10/2023",
     "description": "Config très haut de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B0BN61LYFB&ASIN.2=B0B4S8JMNP&ASIN.3=B0BJW1G7VN&ASIN.4=B097K2WKZW&ASIN.5=B07ZZYWTBP&ASIN.6=B0BNLSDRKB&ASIN.7=B0BN3SY5XW&ASIN.8=B08BKPQQDD&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
     "tags": ["Gaming, Streaming, Création de contenu"],
     "parts": [
       {
@@ -295,9 +295,9 @@
   },
   {
     "name": "Config 1800€",
+    "price": "1800€",
     "date": "15/10/2023",
     "description": "Config très haut de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B0BN5YLBRG&ASIN.2=B0B4S8JMNP&ASIN.3=B0BJW1G7VN&ASIN.4=B097K2WKZW&ASIN.5=B07TLYWMYW&ASIN.6=B0BQNDB95D&ASIN.7=B0BN3SY5XW&ASIN.8=B0C3MC57D5&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
     "tags": ["Gaming, Streaming, Création de contenu"],
     "parts": [
       {
@@ -344,9 +344,9 @@
   },
   {
     "name": "Config 2000€",
+    "price": "2000€",
     "date": "15/10/2023",
     "description": "Config ultra haut de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B0BG64N549&Quantity.1=1&ASIN.2=B09NSCCYHH&Quantity.2=1&ASIN.3=B0BJW1G7VN&Quantity.3=1&ASIN.4=B0BKFKWG5Y&Quantity.4=1&ASIN.5=B07TLYWMYW&Quantity.5=1&ASIN.6=B0BNLSW23M&Quantity.6=1&ASIN.7=B0BN3SY5XW&Quantity.7=1&ASIN.8=B0B4345YV7&Quantity.8=1",
     "tags": ["Gaming, Streaming, Création de contenu"],
     "parts": [
       {
@@ -393,9 +393,9 @@
   },
   {
     "name": "Config 2500€",
+    "price": "2500€",
     "date": "15/10/2023",
     "description": "Config ultra haut de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B0BN5YLBRG&ASIN.2=B09NSTR7JZ&ASIN.3=B0BJW1G7VN&ASIN.4=B097K2WKZW&ASIN.5=B07TLYWMYW&ASIN.6=B0BG94PS2F&ASIN.7=B0BN3SY5XW&ASIN.8=B0B4345YV7&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
     "tags": ["Gaming, Streaming, Création de contenu"],
     "parts": [
       {
@@ -442,9 +442,9 @@
   },
   {
     "name": "Config 2800€",
+    "price": "2800€",
     "date": "15/10/2023",
     "description": "Config hyper haut de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?ASIN.1=B0BN5YLBRG&ASIN.2=B09NSTR7JZ&ASIN.3=B0BJW1G7VN&ASIN.4=B097K2WKZW&ASIN.5=B07TLYWMYW&ASIN.6=B0BG94PS2F&ASIN.7=B0BN3SY5XW&ASIN.8=B0B4345YV7&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1&AssociateTag=enigmatech07-21",
     "tags": ["Gaming, Streaming, Création de contenu"],
     "parts": [
       {
@@ -491,9 +491,9 @@
   },
   {
     "name": "Config 3300€",
+    "price": "3300€",
     "date": "15/10/2023",
     "description": "Config ultime",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B0BTZB7F88&ASIN.2=B0BLYPXGD9&ASIN.3=B0BDS873GF&ASIN.4=B0BKFKWG5Y&ASIN.5=B07TN1MNJ4&ASIN.6=B0BG94PS2F&ASIN.7=B0B469JRGC&ASIN.8=B0C4B8BWM3&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
     "tags": ["Gaming, Streaming, Création de contenu"],
     "parts": [
       {
