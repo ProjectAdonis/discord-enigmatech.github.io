@@ -139,7 +139,7 @@ footer {
 header {
   position: sticky;
   top: 0;
-  z-index: 400;
+  z-index: 9999;
   padding: 1em;
   padding-left: 3em;
   min-height: 10vh;
@@ -192,7 +192,7 @@ header ul li:hover::before {
   background-color: var(--light-primary);
 }
 @media (max-width: 600px) {
-  nav {
+  header {
     display: none;
   }
 }
@@ -293,7 +293,7 @@ section#section1 .background-blur {
 
 section#section1 .title {
   font-family: "Archivo Black";
-  font-size: 75px;
+  font-size: clamp(2.9375rem, 2.2119rem + 4.1463vw, 7.1875rem);
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -304,8 +304,8 @@ section#section1 .title {
 }
 
 section#section1 .title > p {
-  margin: 0;
-  line-height: 80px;
+  margin: 0 15px;
+  line-height: clamp(2.9375rem, 2.2119rem + 4.1463vw, 7.1875rem);
   width: auto;
 }
 
@@ -333,7 +333,7 @@ section#section1 .cta {
 }
 
 section#section1 button {
-  font-size: 18px;
+  font-size: clamp(1.125rem, 1.0503rem + 0.4268vw, 1.5625rem);
   font-weight: 400;
   height: 50px;
   width: auto;
