@@ -35,9 +35,8 @@ body {
 }
 
 .fa-solid {
-  width: 10px;
-  height: 10px;
   margin-left: 10px;
+  transform: translateY(1px);
 }
 hr {
   width: 70vw;
@@ -156,7 +155,7 @@ header {
   .info {
     text-align: center;
   }
-  h3 {
+  #top h3 {
     display: none;
   }
 }
@@ -254,7 +253,7 @@ section:nth-child(odd) {
 section h2 {
   position: relative;
   text-transform: uppercase;
-  margin-bottom: 1em;
+  margin: 1em 0;
   font-family: "Archivo Black", sans-serif;
 }
 section h2::before {
@@ -293,7 +292,7 @@ section#section1 .background-blur {
 
 section#section1 .title {
   font-family: "Archivo Black";
-  font-size: clamp(2.9375rem, 2.2119rem + 4.1463vw, 7.1875rem);
+  font-size: clamp(2.9375rem, 1.7317rem + 6.8902vw, 10rem);
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -305,7 +304,7 @@ section#section1 .title {
 
 section#section1 .title > p {
   margin: 0 15px;
-  line-height: clamp(2.9375rem, 2.2119rem + 4.1463vw, 7.1875rem);
+  line-height: clamp(2.9375rem, 1.7317rem + 6.8902vw, 10rem);
   width: auto;
 }
 
@@ -418,7 +417,7 @@ section#section2 #features-container {
   border: solid 1px var(--light-secondary);
   box-shadow: 2px 2px 15px var(--light-secondary);
   margin: 5% 0 5% 0;
-  padding: 2%;
+  padding: 5%;
   border-radius: 25px;
 }
 
@@ -475,8 +474,6 @@ section#section2 #features-container {
 }
 
 #feature img {
-  max-width: 30%;
-  max-height: 30%;
   margin-top: 5%;
 }
 
@@ -513,7 +510,7 @@ section#section2 #features-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 10px;
+    gap: 20px;
   }
   #feature {
     width: 95%;
@@ -523,10 +520,6 @@ section#section2 #features-container {
 }
 
 /* ------------------------------------------------------------------------ */
-
-section#section3 h2 {
-  margin-top: 100px;
-}
 
 .budget-filter-container {
   position: relative;
@@ -545,6 +538,10 @@ section#section3 h2 {
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+
+section#section3 {
+  margin-top: 5%;
 }
 
 section#section3 form {
@@ -645,7 +642,7 @@ section#section3 span:hover::before {
     right: 0;
     width: 50px;
     height: 90%;
-    background: linear-gradient(to left, var(--dark-gray), transparent);
+    background: linear-gradient(to left, var(--gray), transparent);
     pointer-events: none;
   }
 }
@@ -662,6 +659,26 @@ section#section3 .post {
 }
 section#section3 .post h3 {
   margin: 0;
+}
+section#section3 .post .ppp {
+  border: var(--dark-secondary) 3px solid;
+  color: var(--white);
+  display: block;
+  border-radius: 50px;
+  margin-top: 0.2em;
+  padding-left: 15px;
+  transition: 0.5ms ease;
+  max-width: fit-content;
+  transition: 0.3s ease;
+}
+section#section3 .post .ppp:hover {
+  border: var(--panier-dark) 3px solid;
+  color: var(--light-primary);
+}
+@media screen and (max-width: 335px) {
+  section#section3 .post .ppp {
+    font-size: clamp(0.9375rem, -0.6534rem + 9.0909vw, 1.25rem);
+  }
 }
 section#section3 .post h3:hover {
   color: var(--light-primary);
@@ -685,9 +702,6 @@ section#section3 .post .tags::before {
   content: "\f02c";
   font-family: "FontAwesome";
 }
-section#section3 .post p {
-  margin: 0 0 10px 0;
-}
 section#section3 .post:hover {
   transform: scale(0.98);
   background-color: var(--dark-gray);
@@ -700,8 +714,41 @@ section#section3 .grid {
 }
 section#section3 .pc-icon {
   width: 16px;
+  height: 100%;
+  margin-left: 15px;
+}
+section#section3 ul {
+  margin-top: 25px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+section#section3 li {
+  display: flex;
+  align-items: center;
+}
+
+section#section3 .pc-icon {
+  width: 16px;
   height: 16px;
-  margin: 0 15px 0 15px;
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+
+section#section3 li a {
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  section#section3 li a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  section#section3 li a {
+    font-size: 17px;
+  }
 }
 
 /* ------------------------------------------------------------------------ */

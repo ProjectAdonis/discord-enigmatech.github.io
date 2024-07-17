@@ -40,8 +40,11 @@ h1 {
 mark {
   background-color: rgb(255, 230, 0, 0.85);
   border-radius: 0px 15px 0px 15px;
-  padding: 5px 10px;
+  padding: 0px 10px;
   color: black;
+  display: block;
+  transform: translateY(10px);
+  max-width: fit-content;
 }
 
 .smooth {
